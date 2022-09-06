@@ -1,0 +1,82 @@
+.app {
+  padding: 10%;
+  max-width: 1000px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  box-sizing: content-box;
+
+  &__dark-mode-btn {
+    border: 0;
+    background: transparent;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+ 
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .buttons > .button {
+    height: 30px;
+    width: 100px;
+  }
+
+  .level-right{
+    margin-bottom: 14px;
+   
+  }
+
+  .navbar {
+    max-height: 25px;
+    padding-right: 20px !important;
+    margin-bottom:10px;
+    padding-left:2px;
+}
+  .navTopPadding{
+    margin-top:15px;
+  }
+  .modeButton{
+    position: absolute;
+    top: 25px;
+    width: 16px;
+    float:right;
+  }
+
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 10vh;
+  border-bottom: 1px solid;
+}
+
+.ul-class {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.ul-class >a.active{
+  background-color:rgb(216, 213, 213);
+  color: black;
+  font-weight: bold;
+}
+
+.list-class  {
+  padding: 10px;
+}
+
+.moveButtonToRight{
+  display:flex;
+  justify-content:flex-end;
+}

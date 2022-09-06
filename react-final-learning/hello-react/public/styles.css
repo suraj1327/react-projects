@@ -1,0 +1,18 @@
+.nav-links{
+    display: flex;
+}
+
+.navList{
+  display: flex;
+  padding:2px;
+}
+.nav-link{
+    justify-content: flex-start;
+    list-style: none;
+    padding:10px;
+
+}
+
+.navLinkClass{
+     margin:10px;
+}
