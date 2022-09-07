@@ -1,0 +1,26 @@
+React: 
+1. JS library to build User interfaces.
+2. All about components to build UI and update UI.
+
+ReactDOM: Interface to the web. React does not know anything about browser. It only knows about the components and manages States. Doesn't care if components contains HTML or anything else.
+
+              Context (Component Wide data)
+              |
+              |
+Props --> Components --> React DOM --> Real DOM (What users see)
+              |
+              |
+              State (Internal Data)
+
+Props, state and context affect(re-render/re-evaluated) components.
+
+
+How React works?
+
+render function --> Component instantiates itself --> Initializes Props and state --> Returns Object(Element) and hence creates a tree a elements called a virtual dom.
+This virtual DOM is destroyed and created from scratch.
+Diffing algorithm runs 
+ReactDOM receives the differences and manipulates the real DOM.
+
+Real DOM does not change all the time. It is only changed for difference between evaluations.
+Virtual DOM changes all the time since it is not memory intensive.
